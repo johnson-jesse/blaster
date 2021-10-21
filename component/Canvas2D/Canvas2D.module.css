@@ -1,0 +1,5 @@
+.Canvas2D canvas {
+    outline: none;
+    /* border: 10px solid white; */
+    background-color: black;
+}
