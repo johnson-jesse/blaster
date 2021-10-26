@@ -20,7 +20,7 @@ export default class Ship extends Mass {
         this.loaded = false;
         this.time_until_reloaded = this.weapon_reload_time;
         this.compromised = false;
-        this.max_health = 2.0;
+        this.max_health = 0.5;
         this.health = this.max_health;
     }
 

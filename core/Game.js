@@ -231,7 +231,6 @@ export default class Game {
         });
 
         this.brokenroids = this.brokenroids.concat(asteroid.explode(elapsed));
-        console.log(this.brokenroids);
     }
 
     reset_game() {
@@ -247,8 +246,9 @@ export default class Game {
     level_up() {
         this.scoreBonus();
         this.level += 1;
+        const numberOfRoids = this.level + 5;
 
-        for (let i = 0; i < this.level; i++) {
+        for (let i = 0; i < numberOfRoids; i++) {
             this.asteroids.push(this.moving_asteroid());
         }
 
