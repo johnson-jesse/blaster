@@ -1,4 +1,7 @@
-@import '/AtariClassic-gry3.ttf';
+@font-face {
+    font-family: 'Atari Classic Int';
+    src: url('/AtariClassic-gry3.ttf');
+}
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
