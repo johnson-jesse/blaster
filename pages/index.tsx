@@ -21,8 +21,8 @@ const Home: NextPage = () => {
         </div>
       </div>
       <div className='absolute hidden bottom-4 left-4 lg:block text-sm text-center' style={{ fontFamily: 'Atari Classic' }}><div>Fire space</div><div>Arrow move</div></div>
-      <Link href={`/`}>
-        <a className='absolute bottom-4 right-4 flex'>
+      <Link href={`https://fizzog.io`}>
+        <a className='absolute bottom-4 right-4 flex' target='_blank'>
           <img src='/Vector logo - No Background.svg' alt='logo' className='bg-white bg-opacity-30 md:bg-none h-20 hover:bg-gray-200 p-2 rounded-lg hover:shadow-lg hover:border-xl' />
         </a>
       </Link>
